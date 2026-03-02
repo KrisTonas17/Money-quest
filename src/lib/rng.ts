@@ -1,7 +1,7 @@
 // Mulberry32 — deterministic seeded RNG
 export function createRng(seed: string | number) {
   let s = typeof seed === "string"
-    ? [...seed].reduce((acc, c) => acc + c.charCodeAt(0), 0)
+    ? seed.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0)
     : seed;
 
   return function () {

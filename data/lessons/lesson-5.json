@@ -1,0 +1,97 @@
+{
+  "id": 5,
+  "title": "3 Ways to Earn: Job, Business, Ownership",
+  "week": 3,
+  "session": 1,
+  "learningObjectives": [
+    "Understand the three income types: earned, business, passive",
+    "See why business and ownership income scale beyond trading time",
+    "Identify opportunities to create income, not just receive it"
+  ],
+  "keyPrinciples": [
+    "Earned income: trade your time for money (limited by hours)",
+    "Business income: build a system that makes money",
+    "Ownership income: assets earn for you while you sleep"
+  ],
+  "storyPrompts": [
+    "{name} mows lawns for $15/hour. Their neighbor owns the mowing company and pays five kids to mow — keeping $5 from each job. 'Same lawn,' {name} thinks, 'totally different result.' That's the difference between a job and a business.",
+    "Three paths in front of {name}: A part-time job at the mall. A small reselling side hustle. A fractional share of a local business. Each earns differently. Which one scales beyond the hours in a day?",
+    "'{item} just earned me {amount} while I was sleeping,' {name}'s older sibling says, showing their phone. 'My savings account interest.' It's small — but it's proof the system works. Money making money."
+  ],
+  "decisionCards": [
+    {
+      "id": "d5a",
+      "scenario": "You have 10 free hours this week. How do you monetize them?",
+      "context": "An owner asks: is this trading time, or building something?",
+      "choices": [
+        { "label": "Take extra shifts at work", "description": "Safe, predictable, limited.", "emoji": "⏰", "effects": { "spend": 30, "discipline": 5, "awareness": -3 } },
+        { "label": "Start a small reselling operation", "description": "Buy low, sell high. Your first taste of business.", "emoji": "📦", "effects": { "invest": 20, "courage": 10, "ownership": 12, "discipline": 8 } },
+        { "label": "Create a digital product to sell passively", "description": "Make it once, sell it forever.", "emoji": "💻", "effects": { "invest": 10, "ownership": 20, "courage": 12, "patience": 10 } }
+      ]
+    },
+    {
+      "id": "d5b",
+      "scenario": "You have $50 to put to work. What type of income does it create?",
+      "context": "Money can work for you — but HOW it works matters.",
+      "choices": [
+        { "label": "Buy supplies to flip at a profit", "description": "Business income: your effort times smart buying.", "emoji": "🔄", "effects": { "invest": 60, "courage": 10, "ownership": 8 } },
+        { "label": "Invest in Ownership Orchard assets", "description": "Passive income: money makes money.", "emoji": "📈", "effects": { "invest": 50, "ownership": 15, "patience": 8 } },
+        { "label": "Use it for a skill course", "description": "Invest in earning power.", "emoji": "📚", "effects": { "invest": 30, "awareness": 15, "discipline": 10, "courage": 8 } }
+      ]
+    },
+    {
+      "id": "d5c",
+      "scenario": "Your first business attempt failed. You lost {amount}.",
+      "context": "Every successful entrepreneur has a failure story.",
+      "choices": [
+        { "label": "Never try again — too risky", "description": "That lesson cost enough.", "emoji": "😰", "effects": { "courage": -10, "ownership": -5 } },
+        { "label": "Analyze what went wrong", "description": "The failure is tuition.", "emoji": "🔍", "effects": { "awareness": 18, "courage": 8, "discipline": 10 } },
+        { "label": "Start again with the lesson applied", "description": "Most successful businesses were born from failed ones.", "emoji": "🔄", "effects": { "courage": 20, "ownership": 18, "discipline": 12 } }
+      ]
+    }
+  ],
+  "bossChallengeTemplates": [
+    {
+      "id": "b5a",
+      "scenario": "BOSS: A real business opportunity appears — but requires committing your entire savings.",
+      "context": "Big opportunity, big risk. The Owner's ultimate test.",
+      "choices": [
+        { "label": "Go all in — fortune favors the bold!", "description": "This could change everything.", "emoji": "🎲", "effects": { "save": -100, "invest": 150, "courage": 20, "ownership": 20 } },
+        { "label": "Invest only what you can afford to lose", "description": "Keep your safety net intact.", "emoji": "⚖️", "effects": { "save": -30, "invest": 60, "courage": 12, "ownership": 15, "discipline": 10 } },
+        { "label": "Study it more before committing", "description": "Due diligence is the owner's armor.", "emoji": "🔍", "effects": { "awareness": 20, "discipline": 15, "patience": 12 } }
+      ]
+    },
+    {
+      "id": "b5b",
+      "scenario": "BOSS: Your side income is growing. But it's eating into study/sleep time.",
+      "context": "Sustainability is part of the owner's equation.",
+      "choices": [
+        { "label": "Push harder — grind season!", "description": "Sleep is for retirement.", "emoji": "😤", "effects": { "invest": 30, "courage": 10, "patience": -10 } },
+        { "label": "Systematize it so it runs without you", "description": "Real business owners build systems.", "emoji": "⚙️", "effects": { "ownership": 20, "discipline": 15, "awareness": 12 } },
+        { "label": "Scale back to restore balance", "description": "Unsustainable growth is not growth.", "emoji": "⚖️", "effects": { "patience": 12, "awareness": 10, "discipline": 8 } }
+      ]
+    },
+    {
+      "id": "b5c",
+      "scenario": "BOSS: Someone offers to buy your small business for $500.",
+      "context": "Your first exit opportunity.",
+      "choices": [
+        { "label": "Sell immediately — $500 is great!", "description": "Take the win!", "emoji": "💰", "effects": { "save": 300, "invest": 200, "courage": 10 } },
+        { "label": "Counter-offer for more", "description": "The first offer is rarely the best.", "emoji": "🤝", "effects": { "courage": 15, "awareness": 12, "ownership": 15 } },
+        { "label": "Keep it — it's just getting started", "description": "Not every business should be sold.", "emoji": "🌱", "effects": { "ownership": 20, "patience": 15, "courage": 12 } }
+      ]
+    }
+  ],
+  "miniGameModifiers": {
+    "targetRatios": { "spend": 0.25, "save": 0.35, "invest": 0.4 },
+    "timeLimit": 25
+  },
+  "realityRemix": {
+    "forecasts": [
+      "Your Courage trait is growing. Bigger business opportunities will appear next week!",
+      "Low ownership activity. Next week brings a chance to start something small — take it.",
+      "Business income unlocked! Compounding returns begin next session.",
+      "You've been playing it safe. Next week's boss will test your risk tolerance directly."
+    ]
+  }
+}

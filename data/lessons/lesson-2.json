@@ -1,0 +1,452 @@
+{
+  "id": 2,
+  "title": "Needs vs Wants & Advertising Influence",
+  "week": 1,
+  "session": 2,
+  "learningObjectives": [
+    "Distinguish clearly between needs and wants",
+    "Recognize how advertising manufactures desire",
+    "Practice pausing before purchases"
+  ],
+  "keyPrinciples": [
+    "Needs keep you alive and functional. Wants add pleasure.",
+    "Advertisers are professionals at making wants feel like needs.",
+    "The 24-hour rule creates a pause between impulse and action."
+  ],
+  "storyPrompts": [
+    "An ad pops up on {name}'s phone: 'Only 3 left! The {item} everyone's talking about.' Their heart races. Their thumb hovers over 'Buy Now.' But wait — did they actually WANT this yesterday, before the ad existed?",
+    "{name} is at the grocery store with {amount}. The cart is full of needs: bread, eggs, rice. Then — a display of chocolate-covered almonds catches their eye. 'It's only $4,' they think. 'But that's 4 decisions stacked together.'",
+    "During a class project on advertising, {name} realizes that every commercial they've seen this week has made them want something. 'They're not selling products,' their teacher says. 'They're selling feelings.' {name} starts counting the ads in their life."
+  ],
+  "decisionCards": [
+    {
+      "id": "d2a",
+      "scenario": "You see an Instagram ad for {item} with 'LIMITED TIME' flashing in red.",
+      "context": "You didn't know this product existed 30 seconds ago.",
+      "choices": [
+        {
+          "label": "Buy instantly",
+          "description": "The urgency is REAL, right?",
+          "emoji": "📱",
+          "effects": {
+            "spend": -40,
+            "temptation": 15,
+            "awareness": -8,
+            "discipline": -5
+          },
+          "opportunityCost": "Manufactured urgency = their profit, your loss."
+        },
+        {
+          "label": "Screenshot and wait 24 hours",
+          "description": "If you still want it tomorrow, maybe it's real.",
+          "emoji": "📸",
+          "effects": {
+            "patience": 10,
+            "awareness": 8,
+            "discipline": 8,
+            "temptation": -5
+          }
+        },
+        {
+          "label": "Block the brand and move on",
+          "description": "Remove the temptation at the source.",
+          "emoji": "🚫",
+          "effects": {
+            "discipline": 12,
+            "awareness": 10,
+            "temptation": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "d2b",
+      "scenario": "Your friends say you NEED the new {item} to fit in.",
+      "context": "Peer pressure is advertising's most powerful weapon.",
+      "choices": [
+        {
+          "label": "Buy it to belong",
+          "description": "Social belonging is a real need... isn't it?",
+          "emoji": "👥",
+          "effects": {
+            "spend": -35,
+            "temptation": 12,
+            "awareness": -5
+          }
+        },
+        {
+          "label": "Ask yourself: did I want it before they mentioned it?",
+          "description": "Trace the desire to its source.",
+          "emoji": "🤔",
+          "effects": {
+            "awareness": 15,
+            "discipline": 8,
+            "courage": 6
+          }
+        },
+        {
+          "label": "Explain your financial goals",
+          "description": "Real friends will respect your path.",
+          "emoji": "💬",
+          "effects": {
+            "courage": 12,
+            "ownership": 8,
+            "awareness": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "d2c",
+      "scenario": "You're hungry and pass a food court. Fast food smells amazing.",
+      "context": "Is this hunger, or is this marketing?",
+      "choices": [
+        {
+          "label": "Buy the combo meal",
+          "description": "You're hungry. This is definitely a need.",
+          "emoji": "🍟",
+          "effects": {
+            "spend": -12,
+            "temptation": 5
+          }
+        },
+        {
+          "label": "Drink water, head home, cook",
+          "description": "Cheaper, healthier, and you planned ahead.",
+          "emoji": "🏠",
+          "effects": {
+            "save": 12,
+            "discipline": 8,
+            "patience": 6
+          }
+        },
+        {
+          "label": "Buy a small, cheap snack to tide you over",
+          "description": "Compromise: address the need without overspending.",
+          "emoji": "🍎",
+          "effects": {
+            "spend": -3,
+            "awareness": 8,
+            "discipline": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "d2d",
+      "scenario": "A charity asks for a donation at the checkout. You have {amount} in your wallet.",
+      "context": "This is a need for others, and a want for your sense of self.",
+      "choices": [
+        {
+          "label": "Donate it all",
+          "description": "Generosity is a value worth living.",
+          "emoji": "❤️",
+          "effects": {
+            "spend": -20,
+            "courage": 8,
+            "ownership": 5,
+            "awareness": 5
+          }
+        },
+        {
+          "label": "Donate $5, keep the rest",
+          "description": "Balanced giving with awareness.",
+          "emoji": "💵",
+          "effects": {
+            "spend": -5,
+            "save": 10,
+            "awareness": 8,
+            "courage": 5
+          }
+        },
+        {
+          "label": "Politely decline",
+          "description": "You have your own financial goals right now.",
+          "emoji": "🤝",
+          "effects": {
+            "save": 15,
+            "discipline": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "d2e",
+      "scenario": "You see a 'Buy 2 Get 1 Free' deal on {item} you kind of like.",
+      "context": "You'd be buying 3 of something you weren't planning to buy at all.",
+      "choices": [
+        {
+          "label": "Buy 2, get the free one!",
+          "description": "It's basically free money!",
+          "emoji": "🎁",
+          "effects": {
+            "spend": -30,
+            "temptation": 12,
+            "awareness": -5
+          }
+        },
+        {
+          "label": "Buy just one if you want it",
+          "description": "Only buy what you actually needed.",
+          "emoji": "1️⃣",
+          "effects": {
+            "spend": -12,
+            "awareness": 10,
+            "discipline": 6
+          }
+        },
+        {
+          "label": "Don't buy any",
+          "description": "You weren't planning to buy this at all.",
+          "emoji": "🚶",
+          "effects": {
+            "awareness": 12,
+            "discipline": 10,
+            "temptation": -8
+          }
+        }
+      ]
+    },
+    {
+      "id": "d2f",
+      "scenario": "An influencer you follow says this {item} 'changed their life'.",
+      "context": "Influencers are often paid to say exactly that.",
+      "choices": [
+        {
+          "label": "Order it immediately",
+          "description": "If it worked for them...",
+          "emoji": "📦",
+          "effects": {
+            "spend": -45,
+            "temptation": 18,
+            "awareness": -10
+          }
+        },
+        {
+          "label": "Look up honest reviews",
+          "description": "Skip the paid promotion, find real user experiences.",
+          "emoji": "🔍",
+          "effects": {
+            "awareness": 15,
+            "discipline": 8
+          }
+        },
+        {
+          "label": "Ask: 'Are they getting paid for this?'",
+          "description": "In 2024, most influencer posts are sponsored.",
+          "emoji": "💰",
+          "effects": {
+            "awareness": 18,
+            "discipline": 10,
+            "temptation": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "d2g",
+      "scenario": "You need new school supplies. The fancy branded ones cost 3x more.",
+      "context": "The generic ones do the same job.",
+      "choices": [
+        {
+          "label": "Get the branded ones — quality matters",
+          "description": "You deserve the best!",
+          "emoji": "✨",
+          "effects": {
+            "spend": -30,
+            "temptation": 8,
+            "awareness": -5
+          }
+        },
+        {
+          "label": "Buy the generic ones",
+          "description": "Same function, fraction of the price.",
+          "emoji": "📝",
+          "effects": {
+            "save": 20,
+            "awareness": 10,
+            "discipline": 8
+          }
+        },
+        {
+          "label": "Compare then decide",
+          "description": "Check if the brand actually offers something different.",
+          "emoji": "⚖️",
+          "effects": {
+            "awareness": 12,
+            "discipline": 6,
+            "spend": -15
+          }
+        }
+      ]
+    },
+    {
+      "id": "d2h",
+      "scenario": "You realize you've been buying coffee every day for a month.",
+      "context": "$5/day × 30 days = $150. That math hit different.",
+      "choices": [
+        {
+          "label": "Keep the coffee — joy is valid",
+          "description": "You work hard, you deserve this daily ritual.",
+          "emoji": "☕",
+          "effects": {
+            "spend": -20,
+            "temptation": 5,
+            "awareness": -3
+          }
+        },
+        {
+          "label": "Cut to 3x per week",
+          "description": "Intentional treats feel better than habits.",
+          "emoji": "📅",
+          "effects": {
+            "save": 10,
+            "discipline": 8,
+            "awareness": 8
+          }
+        },
+        {
+          "label": "Buy a french press and make it at home",
+          "description": "Upfront cost, massive long-term savings.",
+          "emoji": "🫗",
+          "effects": {
+            "spend": -15,
+            "save": 40,
+            "invest": 0,
+            "awareness": 15,
+            "ownership": 8
+          }
+        }
+      ]
+    }
+  ],
+  "bossChallengeTemplates": [
+    {
+      "id": "b2a",
+      "scenario": "BOSS: Black Friday. Every store is shouting '80% OFF!' You have $100 saved.",
+      "context": "This day exists specifically to empty your savings.",
+      "choices": [
+        {
+          "label": "Full shopping spree!",
+          "description": "These deals only come once a year!",
+          "emoji": "🛍️",
+          "effects": {
+            "spend": -80,
+            "temptation": 25,
+            "discipline": -12
+          }
+        },
+        {
+          "label": "Stick to your pre-made list",
+          "description": "You planned 3 specific things. Buy only those.",
+          "emoji": "📋",
+          "effects": {
+            "spend": -25,
+            "save": 10,
+            "discipline": 12,
+            "awareness": 10
+          }
+        },
+        {
+          "label": "Stay home entirely",
+          "description": "The best Black Friday deal is not going.",
+          "emoji": "🏠",
+          "effects": {
+            "discipline": 20,
+            "temptation": -15,
+            "save": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2b",
+      "scenario": "BOSS: You've been served the same ad for {item} 14 times this week.",
+      "context": "Retargeting ads are designed to wear down resistance.",
+      "choices": [
+        {
+          "label": "Fine, I'll buy it",
+          "description": "The ads finally won.",
+          "emoji": "😮‍💨",
+          "effects": {
+            "spend": -35,
+            "temptation": 18,
+            "discipline": -8
+          }
+        },
+        {
+          "label": "Block the ad and the site",
+          "description": "You control your environment.",
+          "emoji": "🛡️",
+          "effects": {
+            "discipline": 15,
+            "awareness": 12,
+            "temptation": -15
+          }
+        },
+        {
+          "label": "Research the product critically",
+          "description": "What do 1-star reviews say?",
+          "emoji": "🔍",
+          "effects": {
+            "awareness": 15,
+            "discipline": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2c",
+      "scenario": "BOSS: The checkout page auto-added a {item} 'most customers also buy.' It's only $12.",
+      "context": "Dark patterns: designed to sneak purchases past your guard.",
+      "choices": [
+        {
+          "label": "Leave it in — it's only $12",
+          "description": "Not worth the effort to remove it.",
+          "emoji": "💸",
+          "effects": {
+            "spend": -12,
+            "awareness": -8,
+            "temptation": 10
+          }
+        },
+        {
+          "label": "Remove it before checking out",
+          "description": "You didn't choose it. Don't buy it.",
+          "emoji": "🗑️",
+          "effects": {
+            "awareness": 15,
+            "discipline": 10,
+            "save": 12
+          }
+        },
+        {
+          "label": "Cancel the whole order and reconsider",
+          "description": "If dark patterns are being used, what else is off?",
+          "emoji": "❌",
+          "effects": {
+            "awareness": 20,
+            "discipline": 12,
+            "save": 30
+          }
+        }
+      ]
+    }
+  ],
+  "miniGameModifiers": {
+    "targetRatios": {
+      "spend": 0.25,
+      "save": 0.45,
+      "invest": 0.3
+    },
+    "timeLimit": 20
+  },
+  "realityRemix": {
+    "forecasts": [
+      "You spotted several advertising traps this week. Your Awareness is growing — expect more complex temptations next week.",
+      "You fell for a few ad tricks. More targeted ads will appear next week. Train that skeptical eye!",
+      "Perfect needs-vs-wants score! Your discipline is paying off — bonus savings event next week.",
+      "Your temptation meter rose this week. Advertisers have noticed. Brace for heavier targeting next week!"
+    ]
+  }
+}

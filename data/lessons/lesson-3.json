@@ -1,0 +1,463 @@
+{
+  "id": 3,
+  "title": "Pay Yourself First — The 3 Buckets",
+  "week": 2,
+  "session": 1,
+  "learningObjectives": [
+    "Understand the Pay Yourself First principle",
+    "Set up Spend, Save, and Invest buckets",
+    "See how automatic savings remove temptation"
+  ],
+  "keyPrinciples": [
+    "Pay yourself first before spending on anything else",
+    "Automate saving so willpower is not required",
+    "Three buckets: Spend (fun), Save (safety), Invest (future)"
+  ],
+  "storyPrompts": [
+    "Every time {name} got paid, the money vanished. Not on anything exciting — just... stuff. Snacks, small impulse buys, a forgotten subscription. Then someone showed them the 3-bucket rule: before you spend a dime, split it. 'What if I just moved {amount} to savings the second I get paid?' Suddenly, saving felt automatic.",
+    "{name}'s parent explains the trick: 'I pay my future self first, every paycheck, without thinking. The rest I live on.' {name} does the math — even $10 a week compounds to thousands over years.",
+    "Three jars sit on {name}'s desk. One says SPEND. One says SAVE. One says INVEST. Last month they were empty. This month, with discipline, there's {amount} in each. The Invest jar is starting to feel exciting."
+  ],
+  "decisionCards": [
+    {
+      "id": "d3a",
+      "scenario": "You just got paid {amount}. What happens FIRST?",
+      "context": "Before food, clothes, fun — what does an Owner do?",
+      "choices": [
+        {
+          "label": "Spend it and save whatever's left",
+          "description": "The classic Spender move. Whatever's left... usually $0.",
+          "emoji": "💸",
+          "effects": {
+            "spend": 30,
+            "discipline": -8,
+            "streak": -1,
+            "temptation": 8
+          },
+          "opportunityCost": "Spend-first means save-never. Always."
+        },
+        {
+          "label": "10% save, rest spend",
+          "description": "Classic Pay Yourself First. Small but consistent.",
+          "emoji": "🐷",
+          "effects": {
+            "save": 15,
+            "spend": 20,
+            "discipline": 8,
+            "streak": 1,
+            "temptation": -5
+          }
+        },
+        {
+          "label": "20% save, 10% invest, rest spend",
+          "description": "Triple-bucket from day one.",
+          "emoji": "🪣",
+          "effects": {
+            "save": 15,
+            "invest": 10,
+            "spend": 15,
+            "discipline": 12,
+            "ownership": 10,
+            "streak": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3b",
+      "scenario": "Your savings account now has $200. A friend says 'dead money — spend it!'",
+      "context": "They're not wrong that it's not invested. But they're missing the point.",
+      "choices": [
+        {
+          "label": "They're right, treat yourself",
+          "description": "It's just sitting there doing nothing...",
+          "emoji": "🎉",
+          "effects": {
+            "save": -50,
+            "temptation": 15,
+            "discipline": -8,
+            "streak": -1
+          }
+        },
+        {
+          "label": "Keep it as emergency fund",
+          "description": "Safety net first, then invest beyond it.",
+          "emoji": "🛟",
+          "effects": {
+            "patience": 10,
+            "discipline": 8,
+            "awareness": 8
+          }
+        },
+        {
+          "label": "Move $100 to invest, keep $100 as safety",
+          "description": "Graduate your savings strategy.",
+          "emoji": "📊",
+          "effects": {
+            "invest": 100,
+            "ownership": 12,
+            "discipline": 10,
+            "courage": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3c",
+      "scenario": "You forgot to 'pay yourself first' this week. Month is almost over.",
+      "context": "You still have $30 left. The streak is at risk.",
+      "choices": [
+        {
+          "label": "Write it off, better luck next month",
+          "description": "Streaks are hard...",
+          "emoji": "😔",
+          "effects": {
+            "streak": -1,
+            "discipline": -5
+          }
+        },
+        {
+          "label": "Save $30 — better late than never",
+          "description": "Protect the principle, even if the timing is off.",
+          "emoji": "⏰",
+          "effects": {
+            "save": 30,
+            "discipline": 8,
+            "streak": 1,
+            "patience": 5
+          }
+        },
+        {
+          "label": "Invest $30 directly — skip saving",
+          "description": "Emergency fund already covered. Go straight to growth.",
+          "emoji": "🌱",
+          "effects": {
+            "invest": 30,
+            "ownership": 10,
+            "discipline": 10,
+            "streak": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3d",
+      "scenario": "A new app offers 5% interest on savings. Your bank offers 0.01%.",
+      "context": "Small differences in rate = huge differences over time.",
+      "choices": [
+        {
+          "label": "Stay loyal to your old bank",
+          "description": "Change is annoying.",
+          "emoji": "🏛️",
+          "effects": {
+            "discipline": -3,
+            "awareness": -5
+          }
+        },
+        {
+          "label": "Research the new app first",
+          "description": "Is it FDIC insured? What's the catch?",
+          "emoji": "🔍",
+          "effects": {
+            "awareness": 15,
+            "discipline": 8
+          }
+        },
+        {
+          "label": "Move savings to the high-yield account",
+          "description": "After verifying it's legitimate, of course.",
+          "emoji": "📲",
+          "effects": {
+            "save": 10,
+            "ownership": 12,
+            "awareness": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3e",
+      "scenario": "Your invest bucket hits $500 for the first time ever.",
+      "context": "This is a milestone. What do you do with that feeling?",
+      "choices": [
+        {
+          "label": "Celebrate by treating yourself",
+          "description": "You earned it!",
+          "emoji": "🎊",
+          "effects": {
+            "spend": -30,
+            "temptation": 10,
+            "discipline": -5
+          }
+        },
+        {
+          "label": "Set the next milestone: $1,000",
+          "description": "Momentum is your friend.",
+          "emoji": "🎯",
+          "effects": {
+            "discipline": 12,
+            "ownership": 10,
+            "patience": 8
+          }
+        },
+        {
+          "label": "Add $50 more right now",
+          "description": "Ride the motivation wave.",
+          "emoji": "💪",
+          "effects": {
+            "invest": 50,
+            "discipline": 15,
+            "ownership": 12,
+            "streak": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3f",
+      "scenario": "The Spend bucket is nearly empty but your Save bucket is fat.",
+      "context": "You planned well. Do you dip into savings?",
+      "choices": [
+        {
+          "label": "Raid the savings — it's there for this",
+          "description": "This is what savings is for, right?",
+          "emoji": "🏦",
+          "effects": {
+            "save": -30,
+            "spend": 30,
+            "discipline": -5,
+            "streak": -1
+          }
+        },
+        {
+          "label": "Cut spending until next paycheck",
+          "description": "Protect the buckets. Tighten up.",
+          "emoji": "✂️",
+          "effects": {
+            "patience": 12,
+            "discipline": 10
+          }
+        },
+        {
+          "label": "Transfer only what's truly needed",
+          "description": "Emergency use only — and only the exact amount.",
+          "emoji": "⚖️",
+          "effects": {
+            "save": -10,
+            "spend": 10,
+            "awareness": 8,
+            "discipline": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3g",
+      "scenario": "Your sibling wants to 'borrow' {amount} from your save bucket. It's for something fun.",
+      "context": "Lending from savings blurs the lines.",
+      "choices": [
+        {
+          "label": "Sure, family first!",
+          "description": "You can rebuild it.",
+          "emoji": "❤️",
+          "effects": {
+            "save": -30,
+            "discipline": -5,
+            "courage": 5
+          }
+        },
+        {
+          "label": "Offer from your spend bucket only",
+          "description": "Spend bucket is for exactly this.",
+          "emoji": "💵",
+          "effects": {
+            "spend": -20,
+            "awareness": 8,
+            "discipline": 8
+          }
+        },
+        {
+          "label": "Explain your system, suggest alternatives",
+          "description": "Help them build their own buckets.",
+          "emoji": "🎓",
+          "effects": {
+            "awareness": 12,
+            "ownership": 10,
+            "courage": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3h",
+      "scenario": "You get a $100 bonus unexpectedly. Pure windfall.",
+      "context": "Unexpected money reveals your true money habits.",
+      "choices": [
+        {
+          "label": "Spend it all — bonus money is free money",
+          "description": "Not really... but it feels that way!",
+          "emoji": "🎁",
+          "effects": {
+            "spend": 100,
+            "temptation": 15,
+            "discipline": -8
+          }
+        },
+        {
+          "label": "Apply your normal bucket ratios",
+          "description": "Consistency is the key to building wealth.",
+          "emoji": "🪣",
+          "effects": {
+            "save": 35,
+            "invest": 30,
+            "spend": 35,
+            "discipline": 12,
+            "ownership": 8
+          }
+        },
+        {
+          "label": "Invest the whole windfall",
+          "description": "You were living fine without it. Let it grow.",
+          "emoji": "🌱",
+          "effects": {
+            "invest": 100,
+            "discipline": 18,
+            "ownership": 15,
+            "streak": 1
+          }
+        }
+      ]
+    }
+  ],
+  "bossChallengeTemplates": [
+    {
+      "id": "b3a",
+      "scenario": "BOSS: Your automatic savings transfer failed. Bank error. $150 is back in checking.",
+      "context": "The system that helps you save is broken. What do you do manually?",
+      "choices": [
+        {
+          "label": "Transfer it manually right now",
+          "description": "PYF is a principle, not just an app feature.",
+          "emoji": "⚡",
+          "effects": {
+            "save": 150,
+            "discipline": 15,
+            "streak": 1
+          }
+        },
+        {
+          "label": "Wait for the bank to fix it",
+          "description": "Meanwhile, the money just... sits there.",
+          "emoji": "🕐",
+          "effects": {
+            "patience": 5,
+            "discipline": -3
+          }
+        },
+        {
+          "label": "Spend it 'just this once'",
+          "description": "It's already out of the savings account...",
+          "emoji": "😬",
+          "effects": {
+            "spend": 100,
+            "streak": -1,
+            "temptation": 15,
+            "discipline": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "b3b",
+      "scenario": "BOSS: Friend group pressure: 'You're always saving, live a little!'",
+      "context": "Social pressure to spend is one of the biggest wealth destroyers.",
+      "choices": [
+        {
+          "label": "Fine, I'll loosen up this month",
+          "description": "Peace is worth the cost, right?",
+          "emoji": "😅",
+          "effects": {
+            "spend": -50,
+            "temptation": 20,
+            "discipline": -12,
+            "streak": -1
+          }
+        },
+        {
+          "label": "Explain your goals without apologizing",
+          "description": "Your financial future is not up for debate.",
+          "emoji": "🗣️",
+          "effects": {
+            "courage": 15,
+            "ownership": 10,
+            "discipline": 10
+          }
+        },
+        {
+          "label": "Spend from Spend bucket intentionally",
+          "description": "You have a spend bucket for exactly this — use it.",
+          "emoji": "🎉",
+          "effects": {
+            "spend": -25,
+            "courage": 8,
+            "awareness": 8,
+            "discipline": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b3c",
+      "scenario": "BOSS: You're reviewing last month's spending. You find $80 in mystery charges.",
+      "context": "Subscriptions you forgot, fees you didn't notice.",
+      "choices": [
+        {
+          "label": "Whatever, it's done",
+          "description": "Looking back is depressing.",
+          "emoji": "🙈",
+          "effects": {
+            "awareness": -10,
+            "discipline": -5
+          }
+        },
+        {
+          "label": "Audit and cancel everything unnecessary",
+          "description": "Every recurring charge is a decision you made once and forgot.",
+          "emoji": "🔍",
+          "effects": {
+            "awareness": 20,
+            "discipline": 15,
+            "save": 40
+          }
+        },
+        {
+          "label": "Set a monthly audit date",
+          "description": "Schedule it so it never sneaks up again.",
+          "emoji": "📅",
+          "effects": {
+            "awareness": 18,
+            "discipline": 12,
+            "save": 25,
+            "ownership": 10
+          }
+        }
+      ]
+    }
+  ],
+  "miniGameModifiers": {
+    "targetRatios": {
+      "spend": 0.3,
+      "save": 0.4,
+      "invest": 0.3
+    },
+    "timeLimit": 25
+  },
+  "realityRemix": {
+    "forecasts": [
+      "You've maintained your PYF streak! Expect compound growth bonuses next week.",
+      "Your streak broke this week. Automating savings would prevent this — consider setting it up.",
+      "Your Save bucket is strong. Time to graduate some of it to Invest — opportunity event incoming!",
+      "Low temptation score! Your environment is clean. Keep building those buckets."
+    ]
+  }
+}

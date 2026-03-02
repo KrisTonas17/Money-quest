@@ -1,0 +1,467 @@
+{
+  "id": 7,
+  "title": "Investing Basics — Compounding & Owning Companies",
+  "week": 4,
+  "session": 1,
+  "learningObjectives": [
+    "Understand how compound interest creates wealth exponentially",
+    "See how buying stock means owning a piece of a company",
+    "Recognize that time in market > timing the market"
+  ],
+  "keyPrinciples": [
+    "Compound interest: earning returns on your returns",
+    "Every stock is a fractional ownership of a real business",
+    "Start early — time is the most powerful investing variable"
+  ],
+  "storyPrompts": [
+    "Einstein (maybe) called it the eighth wonder of the world. {name} calls it the math that changed their mind. $100 invested at 10%, left alone for 30 years: $1,745. No extra deposits. Just time and compounding. 'I should have started yesterday,' {name} thinks. 'But the next best time is now.'",
+    "When {name} buys a share of fictional TechCo Inc., they don't just own a piece of paper. They own a slice of every product TechCo sells, every idea their engineers create. 'I'm a part-owner,' {name} says. It sounds crazy. Then it doesn't.",
+    "The chart shows {name}'s fictional investment growing: Year 1, modest. Year 5, interesting. Year 10, exciting. Year 20, life-changing. Same amount invested at year 1. Just time doing its silent, powerful work."
+  ],
+  "decisionCards": [
+    {
+      "id": "d7a",
+      "scenario": "You have {amount} and 40 years before retirement. What do you do?",
+      "context": "$100 at 10% for 40 years = $4,525. Time is the variable.",
+      "choices": [
+        {
+          "label": "Save it in a low-yield account",
+          "description": "Safe and slow.",
+          "emoji": "🐢",
+          "effects": {
+            "save": 50,
+            "patience": 5,
+            "awareness": -5
+          },
+          "opportunityCost": "$50 in savings = $50. $50 invested = $2,262 in 40 years at 10%."
+        },
+        {
+          "label": "Invest it in diversified fictional assets",
+          "description": "Time + diversification = wealth formula.",
+          "emoji": "📊",
+          "effects": {
+            "invest": 50,
+            "ownership": 15,
+            "discipline": 10,
+            "patience": 10
+          }
+        },
+        {
+          "label": "Invest all and add $25/month forever",
+          "description": "The ultimate compound machine.",
+          "emoji": "🚀",
+          "effects": {
+            "invest": 75,
+            "ownership": 20,
+            "discipline": 18,
+            "streak": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7b",
+      "scenario": "The market dropped 20% today. Your Ownership Orchard is down.",
+      "context": "Market drops are temporary. Panic selling is permanent.",
+      "choices": [
+        {
+          "label": "Sell everything — protect what's left!",
+          "description": "Panic selling locks in the loss.",
+          "emoji": "😱",
+          "effects": {
+            "invest": -30,
+            "temptation": 15,
+            "patience": -12,
+            "discipline": -8
+          },
+          "opportunityCost": "Market drops recover. Selling at the bottom means you miss the recovery."
+        },
+        {
+          "label": "Hold and do nothing",
+          "description": "Boring is good in investing.",
+          "emoji": "🧘",
+          "effects": {
+            "patience": 15,
+            "discipline": 12,
+            "ownership": 8
+          }
+        },
+        {
+          "label": "Buy more — it's on sale!",
+          "description": "Drops are discounts if you're a long-term holder.",
+          "emoji": "🛒",
+          "effects": {
+            "invest": 30,
+            "courage": 15,
+            "ownership": 20,
+            "patience": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7c",
+      "scenario": "A hot tip: 'This fictional coin will 10x in a week!'",
+      "context": "Guaranteed return is the language of scams.",
+      "choices": [
+        {
+          "label": "Invest your savings in it!",
+          "description": "Get rich quick is always tempting.",
+          "emoji": "🎰",
+          "effects": {
+            "save": -40,
+            "temptation": 20,
+            "discipline": -12,
+            "awareness": -8
+          }
+        },
+        {
+          "label": "Invest a tiny amount you can afford to lose",
+          "description": "High risk, small position.",
+          "emoji": "🎲",
+          "effects": {
+            "invest": -10,
+            "courage": 5,
+            "awareness": 8
+          }
+        },
+        {
+          "label": "Pass — guaranteed returns don't exist",
+          "description": "If it sounds too good, it is.",
+          "emoji": "🚫",
+          "effects": {
+            "awareness": 18,
+            "discipline": 15,
+            "temptation": -12
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7d",
+      "scenario": "You understand compounding. You're 15. What's your move?",
+      "context": "At 15, time is your greatest asset. Use it.",
+      "choices": [
+        {
+          "label": "Wait until I have more money to invest",
+          "description": "The #1 investing mistake: waiting.",
+          "emoji": "⏰",
+          "effects": {
+            "patience": -5,
+            "ownership": -5,
+            "discipline": -3
+          }
+        },
+        {
+          "label": "Start with $5 in Ownership Orchard now",
+          "description": "Tiny start > no start.",
+          "emoji": "🌱",
+          "effects": {
+            "invest": 5,
+            "ownership": 15,
+            "discipline": 12,
+            "patience": 10
+          }
+        },
+        {
+          "label": "Build a recurring monthly investment habit",
+          "description": "Automation + time = wealth.",
+          "emoji": "⚡",
+          "effects": {
+            "invest": 20,
+            "ownership": 20,
+            "discipline": 20,
+            "streak": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7e",
+      "scenario": "Diversify vs concentrate — you have {amount} to invest.",
+      "context": "Spreading risk vs betting big on one winner.",
+      "choices": [
+        {
+          "label": "All in on my favorite fictional company",
+          "description": "High conviction!",
+          "emoji": "🎯",
+          "effects": {
+            "invest": 50,
+            "courage": 10,
+            "ownership": 8,
+            "patience": -5
+          }
+        },
+        {
+          "label": "Spread across 5 different fictional companies",
+          "description": "Diversification is the only free lunch in investing.",
+          "emoji": "📊",
+          "effects": {
+            "invest": 50,
+            "ownership": 18,
+            "awareness": 12,
+            "patience": 10
+          }
+        },
+        {
+          "label": "50% one pick, 50% diversified",
+          "description": "Conviction + insurance.",
+          "emoji": "⚖️",
+          "effects": {
+            "invest": 50,
+            "ownership": 12,
+            "courage": 8,
+            "awareness": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7f",
+      "scenario": "Your invest bucket doubled in value. Take profits or stay invested?",
+      "context": "Selling winners too early is the most common investor mistake.",
+      "choices": [
+        {
+          "label": "Sell half and take the profit",
+          "description": "Locking in gains feels responsible.",
+          "emoji": "💰",
+          "effects": {
+            "save": 40,
+            "ownership": -5,
+            "patience": -5
+          }
+        },
+        {
+          "label": "Stay fully invested",
+          "description": "Time in market beats timing the market.",
+          "emoji": "🏋️",
+          "effects": {
+            "ownership": 15,
+            "patience": 18,
+            "discipline": 12
+          }
+        },
+        {
+          "label": "Reinvest the gains — compound everything",
+          "description": "Let winners run and reinvest.",
+          "emoji": "🔄",
+          "effects": {
+            "invest": 30,
+            "ownership": 20,
+            "patience": 15,
+            "discipline": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7g",
+      "scenario": "You could invest in something you understand OR something trendy you don't.",
+      "context": "Invest in what you know.",
+      "choices": [
+        {
+          "label": "Chase the trend — it's hot!",
+          "description": "Trends can make quick money...",
+          "emoji": "🔥",
+          "effects": {
+            "invest": 20,
+            "temptation": 12,
+            "awareness": -8
+          }
+        },
+        {
+          "label": "Invest in what you actually understand",
+          "description": "Knowledge is an investor's edge.",
+          "emoji": "🧠",
+          "effects": {
+            "invest": 30,
+            "awareness": 18,
+            "ownership": 15,
+            "discipline": 10
+          }
+        },
+        {
+          "label": "Research the trend until you understand it",
+          "description": "Then decide with full information.",
+          "emoji": "📚",
+          "effects": {
+            "awareness": 20,
+            "discipline": 12,
+            "patience": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7h",
+      "scenario": "Your net worth hits $1,000 for the first time. How do you feel?",
+      "context": "First $1k is a mental milestone. Protect it.",
+      "choices": [
+        {
+          "label": "Celebrate with a big purchase",
+          "description": "Milestones deserve rewards!",
+          "emoji": "🎊",
+          "effects": {
+            "spend": -50,
+            "temptation": 12,
+            "discipline": -5
+          }
+        },
+        {
+          "label": "Set the next milestone: $5,000",
+          "description": "Momentum is everything.",
+          "emoji": "🎯",
+          "effects": {
+            "discipline": 15,
+            "ownership": 12,
+            "patience": 10
+          }
+        },
+        {
+          "label": "Write down how you got here",
+          "description": "Document the system that worked.",
+          "emoji": "📝",
+          "effects": {
+            "awareness": 18,
+            "ownership": 15,
+            "discipline": 12
+          }
+        }
+      ]
+    }
+  ],
+  "bossChallengeTemplates": [
+    {
+      "id": "b7a",
+      "scenario": "BOSS: Market crash! Everything is red. Your portfolio is down 30%.",
+      "context": "The ultimate investor test. Panic or principle?",
+      "choices": [
+        {
+          "label": "Sell everything to stop the bleeding",
+          "description": "Panic selling: the investor's Achilles heel.",
+          "emoji": "🩸",
+          "effects": {
+            "invest": -60,
+            "patience": -15,
+            "discipline": -12
+          }
+        },
+        {
+          "label": "Hold and rebalance calmly",
+          "description": "The investor who holds through crashes wins.",
+          "emoji": "🧘",
+          "effects": {
+            "patience": 20,
+            "discipline": 18,
+            "ownership": 15
+          }
+        },
+        {
+          "label": "Buy more at the discounted price",
+          "description": "Crashes are sales for long-term investors.",
+          "emoji": "🛒",
+          "effects": {
+            "invest": 40,
+            "courage": 20,
+            "ownership": 22,
+            "patience": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "b7b",
+      "scenario": "BOSS: You discover compounding math. $10/week from age 15 = over $1M by retirement.",
+      "context": "This is real. What do you do with this information?",
+      "choices": [
+        {
+          "label": "Interesting but I'll start when I earn more",
+          "description": "The most expensive sentence in personal finance.",
+          "emoji": "🙄",
+          "effects": {
+            "patience": -8,
+            "ownership": -8,
+            "discipline": -5
+          }
+        },
+        {
+          "label": "Start $10/week into Ownership Orchard now",
+          "description": "The math only works if you start.",
+          "emoji": "⚡",
+          "effects": {
+            "invest": 10,
+            "ownership": 22,
+            "discipline": 20,
+            "streak": 1
+          }
+        },
+        {
+          "label": "Invest $25/week and tell every friend",
+          "description": "Evangelize the math — change your circle.",
+          "emoji": "🚀",
+          "effects": {
+            "invest": 25,
+            "ownership": 25,
+            "courage": 15,
+            "discipline": 22
+          }
+        }
+      ]
+    },
+    {
+      "id": "b7c",
+      "scenario": "BOSS: You're offered a 'safe' 3% annual return vs a 'risky' 10% return.",
+      "context": "Over 30 years, the difference is life-changing.",
+      "choices": [
+        {
+          "label": "Take the safe 3%",
+          "description": "$1,000 becomes $2,427 in 30 years.",
+          "emoji": "🛡️",
+          "effects": {
+            "save": 30,
+            "patience": 8,
+            "courage": -5
+          }
+        },
+        {
+          "label": "Take the 10% with diversification",
+          "description": "$1,000 becomes $17,449 in 30 years.",
+          "emoji": "📈",
+          "effects": {
+            "invest": 50,
+            "ownership": 20,
+            "courage": 15,
+            "patience": 15
+          }
+        },
+        {
+          "label": "Mix: 70% growth, 30% safe",
+          "description": "Balanced risk. Smart at any age.",
+          "emoji": "⚖️",
+          "effects": {
+            "invest": 35,
+            "save": 15,
+            "ownership": 15,
+            "discipline": 12
+          }
+        }
+      ]
+    }
+  ],
+  "miniGameModifiers": {
+    "targetRatios": {
+      "spend": 0.2,
+      "save": 0.3,
+      "invest": 0.5
+    },
+    "timeLimit": 30
+  },
+  "realityRemix": {
+    "forecasts": [
+      "Your Ownership Orchard is blooming! Market growth events increase next week.",
+      "You sold during a dip. Market recovery events will test your patience next week.",
+      "Consistent investment behavior! Compounding bonus triggered for final session.",
+      "You're on the Owner's Path. One final boss stands between you and financial mastery."
+    ]
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "id": 8,
+  "title": "Wealth Rules — The $1M Exercise & Setting Goals",
+  "week": 4,
+  "session": 2,
+  "learningObjectives": [
+    "Understand that $1M is achievable with discipline and time",
+    "Set SMART financial goals across short, medium, and long term",
+    "Create your personal Owner's Manifesto"
+  ],
+  "keyPrinciples": [
+    "A million dollars is 1000 x $1,000 — earned in steps",
+    "Goals without deadlines are just wishes",
+    "Your financial identity shapes every choice"
+  ],
+  "storyPrompts": [
+    "The math teacher writes on the board: '$1,000,000.' The class laughs. Then she breaks it down: 30 years, $10/week, 10% average return. '$1,003,402,' she finishes. The laughter stops. {name} stares at the number and wonders if they've been thinking too small.",
+    "{name} writes out three financial goals: one for next month, one for next year, one for next decade. 'Goals are just decisions made in advance,' a mentor says. 'You're deciding who you want to be before the moment arrives.'",
+    "The {item} in the store window still glitters. But {name} sees it differently now. Not as a thing to want, but as a choice — against {amount} invested, against a goal, against the version of themselves they're building. The math has changed everything."
+  ],
+  "decisionCards": [
+    {
+      "id": "d8a",
+      "scenario": "Someone asks: 'Do you think you'll ever be a millionaire?' What do you say?",
+      "context": "Your belief shapes your behavior. Your behavior shapes your bank account.",
+      "choices": [
+        {
+          "label": "'Probably not — that's for other people.'",
+          "description": "Limiting belief confirmed.",
+          "emoji": "😔",
+          "effects": {
+            "ownership": -10,
+            "courage": -8,
+            "discipline": -5
+          }
+        },
+        {
+          "label": "'I don't know, but I'm building toward it.'",
+          "description": "Honest and open. Good start.",
+          "emoji": "🤔",
+          "effects": {
+            "awareness": 8,
+            "ownership": 8,
+            "discipline": 5
+          }
+        },
+        {
+          "label": "'Yes — and here's the math.'",
+          "description": "Owner mindset fully activated.",
+          "emoji": "💪",
+          "effects": {
+            "ownership": 20,
+            "courage": 18,
+            "discipline": 15,
+            "streak": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "d8b",
+      "scenario": "You set a 5-year financial goal. It's ambitious. What happens when it gets hard?",
+      "context": "Goals are tested every time life offers an easier path.",
+      "choices": [
+        {
+          "label": "Adjust the goal down — be realistic",
+          "description": "Comfort over commitment.",
+          "emoji": "📉",
+          "effects": {
+            "patience": -8,
+            "ownership": -10,
+            "discipline": -8
+          }
+        },
+        {
+          "label": "Push through — hard is how it grows",
+          "description": "Difficulty is the price of achievement.",
+          "emoji": "💪",
+          "effects": {
+            "discipline": 18,
+            "courage": 15,
+            "patience": 12,
+            "ownership": 12
+          }
+        },
+        {
+          "label": "Review and adjust the strategy, not the goal",
+          "description": "Keep the destination, change the route.",
+          "emoji": "🗺️",
+          "effects": {
+            "awareness": 18,
+            "discipline": 15,
+            "ownership": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "d8c",
+      "scenario": "You have enough money to hit an early goal 2 months ahead of schedule.",
+      "context": "Beating your own timeline is the best feeling.",
+      "choices": [
+        {
+          "label": "Celebrate with a big purchase",
+          "description": "You earned it!",
+          "emoji": "🎊",
+          "effects": {
+            "spend": -50,
+            "temptation": 10,
+            "discipline": -5
+          }
+        },
+        {
+          "label": "Set the next, bigger goal immediately",
+          "description": "Stack wins, build momentum.",
+          "emoji": "🎯",
+          "effects": {
+            "discipline": 18,
+            "ownership": 15,
+            "patience": 12
+          }
+        },
+        {
+          "label": "Give back: donate some to someone starting out",
+          "description": "Generosity compounds too.",
+          "emoji": "❤️",
+          "effects": {
+            "courage": 15,
+            "ownership": 12,
+            "awareness": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "d8d",
+      "scenario": "Your financial hero is someone who built wealth slowly over decades.",
+      "context": "The tortoise always wins. Always.",
+      "choices": [
+        {
+          "label": "That's too slow for me — I want fast results",
+          "description": "Fast results usually come with fast losses.",
+          "emoji": "⚡",
+          "effects": {
+            "temptation": 12,
+            "patience": -8,
+            "discipline": -5
+          }
+        },
+        {
+          "label": "Study their exact habits and copy them",
+          "description": "Model success, not shortcuts.",
+          "emoji": "📚",
+          "effects": {
+            "awareness": 18,
+            "discipline": 15,
+            "ownership": 15,
+            "patience": 12
+          }
+        },
+        {
+          "label": "Build a 10-year plan inspired by their path",
+          "description": "Long horizon, compound results.",
+          "emoji": "🗺️",
+          "effects": {
+            "ownership": 20,
+            "patience": 18,
+            "discipline": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "d8e",
+      "scenario": "You could spend {amount} now or add it to your investment that doubles every 7 years.",
+      "context": "The rule of 72: at 10%, money doubles in ~7 years.",
+      "choices": [
+        {
+          "label": "Spend it — I might not be here in 7 years",
+          "description": "Real concern. But the math still matters.",
+          "emoji": "🎉",
+          "effects": {
+            "spend": 40,
+            "temptation": 8,
+            "discipline": -5
+          },
+          "opportunityCost": "$40 becomes $80 in 7 years, $160 in 14. Your future had a price tag."
+        },
+        {
+          "label": "Invest it and celebrate the future double",
+          "description": "The patience trait pays off here.",
+          "emoji": "📈",
+          "effects": {
+            "invest": 40,
+            "patience": 15,
+            "ownership": 12,
+            "discipline": 12
+          }
+        },
+        {
+          "label": "Split: enjoy today AND build tomorrow",
+          "description": "Balance is a strategy, not a compromise.",
+          "emoji": "⚖️",
+          "effects": {
+            "spend": 20,
+            "invest": 20,
+            "discipline": 10,
+            "awareness": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "d8f",
+      "scenario": "Write your Owner's Manifesto. What's your #1 money rule?",
+      "context": "Identity precedes behavior. Name your rule.",
+      "choices": [
+        {
+          "label": "'I always pay myself first.'",
+          "description": "PYF forever.",
+          "emoji": "🐷",
+          "effects": {
+            "discipline": 20,
+            "streak": 1,
+            "ownership": 12
+          }
+        },
+        {
+          "label": "'Every dollar has a job.'",
+          "description": "Zero-based intentionality.",
+          "emoji": "💼",
+          "effects": {
+            "awareness": 20,
+            "discipline": 18,
+            "ownership": 15
+          }
+        },
+        {
+          "label": "'I think in decades, not days.'",
+          "description": "Long-game identity.",
+          "emoji": "🕰️",
+          "effects": {
+            "patience": 22,
+            "ownership": 20,
+            "discipline": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "d8g",
+      "scenario": "You could retire at 45 OR work until 65 with twice the money. Which?",
+      "context": "Time and money are both resources. Which do you value more?",
+      "choices": [
+        {
+          "label": "Retire at 45 — time is the real wealth",
+          "description": "Freedom over accumulation.",
+          "emoji": "🏖️",
+          "effects": {
+            "ownership": 18,
+            "patience": 15,
+            "courage": 12
+          }
+        },
+        {
+          "label": "Work until 65 for maximum security",
+          "description": "Money as security over freedom.",
+          "emoji": "🏦",
+          "effects": {
+            "save": 30,
+            "discipline": 10,
+            "patience": 8
+          }
+        },
+        {
+          "label": "Build enough passive income to work by choice",
+          "description": "The real answer: make the choice optional.",
+          "emoji": "🌟",
+          "effects": {
+            "ownership": 25,
+            "courage": 18,
+            "discipline": 18,
+            "invest": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "d8h",
+      "scenario": "Game over: you've completed the Owner's Path. What's one thing you'll do differently?",
+      "context": "The final question. The only one that matters.",
+      "choices": [
+        {
+          "label": "Start saving — even just a little",
+          "description": "Small consistent action beats big sporadic action.",
+          "emoji": "🌱",
+          "effects": {
+            "save": 20,
+            "streak": 1,
+            "discipline": 15
+          }
+        },
+        {
+          "label": "Invest consistently, starting today",
+          "description": "Time in market begins now.",
+          "emoji": "📈",
+          "effects": {
+            "invest": 20,
+            "ownership": 20,
+            "streak": 1,
+            "discipline": 18
+          }
+        },
+        {
+          "label": "Build something that earns while I sleep",
+          "description": "Ownership is the ultimate answer.",
+          "emoji": "🏗️",
+          "effects": {
+            "ownership": 25,
+            "courage": 20,
+            "discipline": 20,
+            "invest": 15
+          }
+        }
+      ]
+    }
+  ],
+  "bossChallengeTemplates": [
+    {
+      "id": "b8a",
+      "scenario": "FINAL BOSS: Your younger sibling asks you how to become rich. What do you say?",
+      "context": "Teaching cements learning. What you know, you can share.",
+      "choices": [
+        {
+          "label": "'Work hard and save a lot.'",
+          "description": "True but incomplete.",
+          "emoji": "💪",
+          "effects": {
+            "awareness": 5,
+            "discipline": 5
+          }
+        },
+        {
+          "label": "'Pay yourself first, use 3 buckets, invest early.'",
+          "description": "The real formula.",
+          "emoji": "🪣",
+          "effects": {
+            "ownership": 22,
+            "awareness": 20,
+            "discipline": 18
+          }
+        },
+        {
+          "label": "'Let me show you the $1M math.'",
+          "description": "Give them the compound interest gift.",
+          "emoji": "📊",
+          "effects": {
+            "ownership": 25,
+            "courage": 20,
+            "awareness": 22,
+            "streak": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8b",
+      "scenario": "FINAL BOSS: You have $1,000, 30 years, and a choice of three paths.",
+      "context": "Put the whole course to work.",
+      "choices": [
+        {
+          "label": "Spend it — it's a small amount anyway",
+          "description": "Small amounts compound to large amounts.",
+          "emoji": "💸",
+          "effects": {
+            "spend": 100,
+            "temptation": 15,
+            "discipline": -15,
+            "ownership": -10
+          }
+        },
+        {
+          "label": "Invest it and forget it for 30 years",
+          "description": "$1,000 at 10% = $17,449 in 30 years.",
+          "emoji": "🌳",
+          "effects": {
+            "invest": 100,
+            "ownership": 25,
+            "patience": 22,
+            "discipline": 20,
+            "streak": 1
+          }
+        },
+        {
+          "label": "Invest it AND add $50/month forever",
+          "description": "The wealth formula: lump sum + consistent contribution.",
+          "emoji": "🚀",
+          "effects": {
+            "invest": 150,
+            "ownership": 30,
+            "patience": 25,
+            "discipline": 25,
+            "streak": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8c",
+      "scenario": "FINAL BOSS: You've finished the Owner's Path. What kind of owner will you be?",
+      "context": "The answer defines the next chapter.",
+      "choices": [
+        {
+          "label": "The Saver: safety, security, slow and steady",
+          "description": "The conservative path.",
+          "emoji": "🐢",
+          "effects": {
+            "save": 50,
+            "discipline": 15,
+            "patience": 15
+          }
+        },
+        {
+          "label": "The Investor: compound and grow, think in decades",
+          "description": "The long-game path.",
+          "emoji": "📈",
+          "effects": {
+            "invest": 60,
+            "ownership": 25,
+            "patience": 22,
+            "discipline": 20
+          }
+        },
+        {
+          "label": "The Builder: create businesses, employ others, multiply value",
+          "description": "The owner's owner.",
+          "emoji": "🏗️",
+          "effects": {
+            "invest": 40,
+            "ownership": 30,
+            "courage": 25,
+            "discipline": 22,
+            "awareness": 20
+          }
+        }
+      ]
+    }
+  ],
+  "miniGameModifiers": {
+    "targetRatios": {
+      "spend": 0.15,
+      "save": 0.25,
+      "invest": 0.6
+    },
+    "timeLimit": 30
+  },
+  "realityRemix": {
+    "forecasts": [
+      "You've completed the Owner's Path. The real game starts now — in real life.",
+      "Your traits reflect your journey. Discipline and Ownership are your strongest.",
+      "The $1M path is possible. The math is real. The choice is yours.",
+      "Share your seed with someone you want to challenge. The family league awaits."
+    ]
+  }
+}
